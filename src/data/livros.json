@@ -1,0 +1,14 @@
+[
+  {
+    "id": "dc001",
+    "titulo": "Dom Casmurro",
+    "autor": "Machado de Assis",
+    "categoria": "Romance",
+    "ano": 1899,
+    "nota": 4.8,
+    "capa": "/imagens/dom-casmurro.jpg",
+    "status": "lido",
+    "favorito": true,
+    "tags": ["clássico", "romance", "psicológico"]
+  }
+]
