@@ -1,15 +1,20 @@
-const STATUS = ['Todos', 'Quero ler', 'Lendo', 'Lido']
+const STATUS = [
+  { valor: 'Todos',     rotulo: 'Todos' },
+  { valor: 'quero ler', rotulo: 'Quero ler' },
+  { valor: 'lendo',     rotulo: 'Lendo' },
+  { valor: 'lido',      rotulo: '''''Lido' },
+]
 
 function FiltroStatus({ valor, aoAlterar }) {
   return (
     <div className="filtro-status">
       {STATUS.map((s) => (
         <button
-          key={s}
-          className={`chip ${valor === s ? 'chip-ativo' : ''}`}
-          onClick={() => aoAlterar(s)}
+          key={s.valor}
+          className={`chip ${valor === s.valor ? 'chip-ativo' : ''}`}
+          onClick={() => aoAlterar(s.valor)}
         >
-          {s}
+          {s.rotulo}
         </button>
       ))}
     </div>

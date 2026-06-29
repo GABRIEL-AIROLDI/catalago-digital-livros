@@ -1,14 +1,112 @@
 [
   {
-    "id": "dc001",
+    "id": 1,
     "titulo": "Dom Casmurro",
     "autor": "Machado de Assis",
-    "categoria": "Romance",
-    "ano": 1899,
+    "categoria": "Literatura Brasileira",
+    "status": "Lido",
+    "paginas": 256,
     "nota": 4.8,
-    "capa": "/imagens/dom-casmurro.jpg",
-    "status": "lido",
-    "favorito": true,
-    "tags": ["clássico", "romance", "psicológico"]
+    "tags": ["classico", "romance", "psicologico"],
+    "descricao": "Romance classico sobre memoria, ciume eACA interpretacao narrado por Bentinho."
+  },
+  {
+    "id": 2,
+    "titulo": "Capitaes da Areia",
+    "autor": "Jorge Amado",
+    "categoria": "Literatura Brasileira",
+    "status": "Lendo",
+    "paginas": 280,
+    "nota": 4.7,
+    "tags": ["realismo social", "juventude", "bahia"],
+    "descricao": "Historia de criancas abandonadas que vivem nas ruas de Salvador nos anos 1930."
+  },
+  {
+    "id": 3,
+    "titulo": "O Cortico",
+    "autor": "Aluisio Azevedo",
+    "categoria": "Literatura Brasileira",
+    "status": "Lido",
+    "paginas": 220,
+    "nota": 4.5,
+    "tags": ["naturalismo", "classico", "brasil"],
+    "descricao": "Retrato naturalista da vida coletiva numa comunidade pobre do Rio de Janeiro."
+  },
+  {
+    "id": 4,
+    "titulo": "Iracema",
+    "autor": "Jose de Alencar",
+    "categoria": "Literatura Brasileira",
+    "status": "Quero ler",
+    "paginas": 112,
+    "nota": 4.3,
+    "tags": ["indianismo", "romance", "classico"],
+    "descricao": "Lenda poetica sobre o amor entre a indigena Iracema e o colonizador Martim."
+  },
+  {
+    "id": 5,
+    "titulo": "Algoritmos para Viver",
+    "autor": "Brian Christian e Tom Griffiths",
+    "categoria": "Tecnologia",
+    "status": "Lendo",
+    "paginas": 368,
+    "nota": 4.5,
+    "tags": ["algoritmos", "decisoes", "computacao"],
+    "descricao": "Como a ciencia da computacao pode guiar decisoes e estrategias do cotidiano."
+  },
+  {
+    "id": 6,
+    "titulo": "Clean Code",
+    "autor": "Robert C. Martin",
+    "categoria": "Tecnologia",
+    "status": "Lido",
+    "paginas": 464,
+    "nota": 4.4,
+    "tags": ["programacao", "boas praticas", "software"],
+    "descricao": "Referencia para escrever codigo limpo, legivel e de facil manutencao."
+  },
+  {
+    "id": 7,
+    "titulo": "O Pequeno Principe",
+    "autor": "Antoine de Saint-Exupery",
+    "categoria": "Fabula",
+    "status": "Lido",
+    "paginas": 96,
+    "nota": 4.9,
+    "tags": ["fabula", "filosofia", "classico"],
+    "descricao": "Narrativa simbolica sobre amizade, responsabilidade e imaginacao."
+  },
+  {
+    "id": 8,
+    "titulo": "Sapiens",
+    "autor": "Yuval Noah Harari",
+    "categoria": "Historia",
+    "status": "Quero ler",
+    "paginas": 464,
+    "nota": 4.8,
+    "tags": ["historia", "humanidade", "sociedade"],
+    "descricao": "Sintese historica sobre o desenvolvimento da especie humana e da civilizacao."
+  },
+  {
+    "id": 9,
+    "titulo": "A Revolucao dos Bichos",
+    "autor": "George Orwell",
+    "categoria": "Ficcao Politica",
+    "status": "Lido",
+    "paginas": 152,
+    "nota": 4.6,
+    "tags": ["politica", "alegoria", "classico"],
+    "descricao": "Fabula politica sobre poder, corrupcao e manipulacao atraves de animais."
+  },
+  {
+    "id": 10,
+    "titulo": "Design do Dia a Dia",
+    "autor": "Don Norman",
+    "categoria": "Design",
+    "status": "Lendo",
+    "paginas": 368,
+    "nota": 4.5,
+    "tags": ["design", "usabilidade", "interfaces"],
+    "descricao": "Como o design influencia o comportamento humano e a experiencia com objetos."
   }
 ]

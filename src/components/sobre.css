@@ -1,0 +1,79 @@
+.sobre {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.sobre-conteudo {
+  background:
+    linear-gradient(
+      135deg,
+      rgba(15, 23, 42, 0.97),
+      rgba(24, 54, 91, 0.85)
+    ),
+    radial-gradient(
+      circle at 10% 80%,
+      rgba(124, 58, 237, 0.28),
+      transparent 20rem
+    );
+  border: 0.5px solid rgba(255, 255, 255, 0.07);
+  border-radius: 32px;
+  padding: clamp(32px, 6vw, 64px);
+}
+
+.sobre-tag {
+  display: inline-block;
+  font-size: 12px;
+  color: #afa9ec;
+  background: rgba(83, 74, 183, 0.15);
+  border: 0.5px solid rgba(83, 74, 183, 0.3);
+  padding: 4px 14px;
+  border-radius: 99px;
+  margin-bottom: 20px;
+}
+
+.sobre-titulo {
+  font-size: clamp(1.6rem, 4vw, 2.4rem);
+  font-weight: 500;
+  color: #e5edf8;
+  line-height: 1.2;
+  margin-bottom: 16px;
+  max-width: 560px;
+}
+
+.sobre-desc {
+  font-size: 15px;
+  color: rgba(229, 237, 248, 0.55);
+  line-height: 1.7;
+  max-width: 580px;
+  margin-bottom: 36px;
+}
+
+.sobre-itens {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.sobre-item {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.sobre-numero {
+  font-size: 36px;
+  font-weight: 500;
+  color: #e5edf8;
+  line-height: 1;
+}
+
+.sobre-rotulo {
+  font-size: 13px;
+  color: rgba(229, 237, 248, 0.45);
+}
+
+@media (max-width: 600px) {
+  .sobre-itens {
+    gap: 24px;
+  }
+}

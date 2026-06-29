@@ -20,10 +20,7 @@ function App() {
   })
 
   useEffect(() => {
-    localStorage.setItem(
-      'catalogo:favoritos',
-      JSON.stringify(favoritos)
-    )
+    localStorage.setItem('catalogo:favoritos', JSON.stringify(favoritos))
   }, [favoritos])
 
   const categorias = useMemo(() => {
@@ -42,10 +39,8 @@ function App() {
       ].join(' ').toLowerCase()
       return (
         texto.includes(termo) &&
-        (categoriaAtiva === 'Todas' ||
-          livro.categoria === categoriaAtiva) &&
-        (statusAtivo === 'Todos' ||
-          livro.status === statusAtivo)
+        (categoriaAtiva === 'Todas' || livro.categoria === categoriaAtiva) &&
+        (statusAtivo === 'Todos' || livro.status === statusAtivo)
       )
     })
   }, [busca, categoriaAtiva, statusAtivo])
@@ -85,10 +80,7 @@ function App() {
             valor={categoriaAtiva}
             aoAlterar={setCategoriaAtiva}
           />
-          <FiltroStatus
-            valor={statusAtivo}
-            aoAlterar={setStatusAtivo}
-          />
+          <FiltroStatus valor={statusAtivo} aoAlterar={setStatusAtivo} />
         </section>
 
         <ListaLivros
