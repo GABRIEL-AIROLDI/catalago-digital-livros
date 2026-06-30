@@ -1,3 +1,4 @@
+// src/components/CardLivro.jsx
 function CardLivro({ livro, favorito, aoAlternarFavorito }) {
   return (
     <article className="card-livro">
@@ -11,14 +12,20 @@ function CardLivro({ livro, favorito, aoAlternarFavorito }) {
         </button>
       </div>
 
+      {}
+      {livro.capa && (
+        <img src={livro.capa} alt={`Capa do livro ${livro.titulo}`} className="card-capa" />
+      )}
+
       <h3 className="card-titulo">{livro.titulo}</h3>
       <p className="card-autor">{livro.autor}</p>
       <p className="card-descricao">{livro.descricao}</p>
 
       <div className="card-meta">
         <span className="selo">{livro.status}</span>
-        <span className="selo">{livro.paginas} paginas</span>
-        <span className="selo">Nota {livro.nota}</span>
+        {livro.vestibular && livro.vestibular.map(v => (
+            <span key={v} className="selo" style={{ borderColor: '#6d28d9', color: '#c4b5fd' }}>{v}</span>
+        ))}
       </div>
 
       <div className="card-tags">

@@ -1,3 +1,4 @@
+// src/App.jsx
 import { useState, useEffect, useMemo } from 'react'
 import livrosBase from './data/livros.json'
 import Header from './components/Header.jsx'
@@ -5,6 +6,7 @@ import Footer from './components/Footer.jsx'
 import CampoBusca from './components/CampoBusca.jsx'
 import FiltroCategoria from './components/FiltroCategoria.jsx'
 import FiltroStatus from './components/FiltroStatus.jsx'
+import FiltroVestibular from './components/FiltroVestibular.jsx' // NOVO IMPORT
 import PainelEstatisticas from './components/PainelEstatisticas.jsx'
 import ListaLivros from './components/ListaLivros.jsx'
 import './App.css'
@@ -13,6 +15,7 @@ function App() {
   const [busca, setBusca] = useState('')
   const [categoriaAtiva, setCategoriaAtiva] = useState('Todas')
   const [statusAtivo, setStatusAtivo] = useState('Todos')
+  const [vestibularAtivo, setVestibularAtivo] = useState('Todos') // NOVO ESTADO
 
   const [favoritos, setFavoritos] = useState(() => {
     const salvo = localStorage.getItem('catalogo:favoritos')
@@ -37,13 +40,18 @@ function App() {
         livro.categoria,
         ...livro.tags,
       ].join(' ').toLowerCase()
-      return (
-        texto.includes(termo) &&
-        (categoriaAtiva === 'Todas' || livro.categoria === categoriaAtiva) &&
-        (statusAtivo === 'Todos' || livro.status === statusAtivo)
-      )
+      
+      const passaBusca = texto.includes(termo)
+      const passaCategoria = categoriaAtiva === 'Todas' || livro.categoria === categoriaAtiva
+      const passaStatus = statusAtivo === 'Todos' || livro.status === statusAtivo
+      
+      // NOVA LÓGICA DE FILTRO:
+      const passaVestibular = vestibularAtivo === 'Todos' || 
+        (livro.vestibular && livro.vestibular.includes(vestibularAtivo))
+
+      return passaBusca && passaCategoria && passaStatus && passaVestibular
     })
-  }, [busca, categoriaAtiva, statusAtivo])
+  }, [busca, categoriaAtiva, statusAtivo, vestibularAtivo])
 
   function alternarFavorito(idLivro) {
     setFavoritos((atual) =>
@@ -58,11 +66,10 @@ function App() {
       <Header />
       <main className="pagina" id="catalogo">
         <section className="hero">
-          <p className="hero-tag">Projeto React guiado por dados</p>
-          <h1>Catalogo digital para organizar leituras</h1>
+          <p className="hero-tag">Projeto React</p>
+          <h1>biblioteca ULTRAPD para estudo intergalático</h1>
           <p className="hero-sub">
-            Interface construida com componentes reutilizaveis,
-            filtros dinamicos, cards responsivos e dados em JSON.
+            Foque nas suas leituras obrigatórias da UFRGS e ENEM com o sistema de filtros avançados.
           </p>
         </section>
 
@@ -80,7 +87,11 @@ function App() {
             valor={categoriaAtiva}
             aoAlterar={setCategoriaAtiva}
           />
-          <FiltroStatus valor={statusAtivo} aoAlterar={setStatusAtivo} />
+          {/* AGRUPANDO OS BOTÕES DE CHIP */}
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
+             <FiltroStatus valor={statusAtivo} aoAlterar={setStatusAtivo} />
+             <FiltroVestibular valor={vestibularAtivo} aoAlterar={setVestibularAtivo} />
+          </div>
         </section>
 
         <ListaLivros

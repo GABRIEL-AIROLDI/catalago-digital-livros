@@ -7,8 +7,16 @@
     "status": "Lido",
     "paginas": 256,
     "nota": 4.8,
-    "tags": ["classico", "romance", "psicologico"],
-    "descricao": "Romance classico sobre memoria, ciume eACA interpretacao narrado por Bentinho."
+    "tags": [
+      "classico",
+      "romance",
+      "psicologico"
+    ],
+    "vestibular": [
+      "ENEM"
+    ],
+    "capa": "https://books.google.com/books/content?id=I-fUDAAAQBAJ&printsec=frontcover&img=1&zoom=1",
+    "descricao": "Romance classico sobre memoria, ciume e interpretacao narrado por Bentinho."
   },
   {
     "id": 2,
@@ -18,7 +26,15 @@
     "status": "Lendo",
     "paginas": 280,
     "nota": 4.7,
-    "tags": ["realismo social", "juventude", "bahia"],
+    "tags": [
+      "realismo social",
+      "juventude",
+      "bahia"
+    ],
+    "vestibular": [
+      "ENEM"
+    ],
+    "capa": "https://m.media-amazon.com/images/I/81t7altQZxL.jpg",
     "descricao": "Historia de criancas abandonadas que vivem nas ruas de Salvador nos anos 1930."
   },
   {
@@ -29,7 +45,15 @@
     "status": "Lido",
     "paginas": 220,
     "nota": 4.5,
-    "tags": ["naturalismo", "classico", "brasil"],
+    "tags": [
+      "naturalismo",
+      "classico",
+      "brasil"
+    ],
+    "vestibular": [
+      "ENEM"
+    ],
+    "capa": "https://books.google.com/books/content?id=v8tmDwAAQBAJ&printsec=frontcover&img=1&zoom=1",
     "descricao": "Retrato naturalista da vida coletiva numa comunidade pobre do Rio de Janeiro."
   },
   {
@@ -40,7 +64,12 @@
     "status": "Quero ler",
     "paginas": 112,
     "nota": 4.3,
-    "tags": ["indianismo", "romance", "classico"],
+    "tags": [
+      "indianismo",
+      "romance",
+      "classico"
+    ],
+    "capa": "https://books.google.com/books/content?id=3QQmDwAAQBAJ&printsec=frontcover&img=1&zoom=1",
     "descricao": "Lenda poetica sobre o amor entre a indigena Iracema e o colonizador Martim."
   },
   {
@@ -51,7 +80,12 @@
     "status": "Lendo",
     "paginas": 368,
     "nota": 4.5,
-    "tags": ["algoritmos", "decisoes", "computacao"],
+    "tags": [
+      "algoritmos",
+      "decisoes",
+      "computacao"
+    ],
+    "capa": "https://books.google.com/books/content?id=T4TVDgAAQBAJ&printsec=frontcover&img=1&zoom=1",
     "descricao": "Como a ciencia da computacao pode guiar decisoes e estrategias do cotidiano."
   },
   {
@@ -62,7 +96,12 @@
     "status": "Lido",
     "paginas": 464,
     "nota": 4.4,
-    "tags": ["programacao", "boas praticas", "software"],
+    "tags": [
+      "programacao",
+      "boas praticas",
+      "software"
+    ],
+    "capa": "https://books.google.com/books/content?id=_i6bDeoCQzsC&printsec=frontcover&img=1&zoom=1",
     "descricao": "Referencia para escrever codigo limpo, legivel e de facil manutencao."
   },
   {
@@ -73,7 +112,12 @@
     "status": "Lido",
     "paginas": 96,
     "nota": 4.9,
-    "tags": ["fabula", "filosofia", "classico"],
+    "tags": [
+      "fabula",
+      "filosofia",
+      "classico"
+    ],
+    "capa": "https://books.google.com/books/content?id=ix7nDQAAQBAJ&printsec=frontcover&img=1&zoom=1",
     "descricao": "Narrativa simbolica sobre amizade, responsabilidade e imaginacao."
   },
   {
@@ -84,7 +128,12 @@
     "status": "Quero ler",
     "paginas": 464,
     "nota": 4.8,
-    "tags": ["historia", "humanidade", "sociedade"],
+    "tags": [
+      "historia",
+      "humanidade",
+      "sociedade"
+    ],
+    "capa": "https://books.google.com/books/content?id=FmyBAwAAQBAJ&printsec=frontcover&img=1&zoom=1",
     "descricao": "Sintese historica sobre o desenvolvimento da especie humana e da civilizacao."
   },
   {
@@ -95,7 +144,12 @@
     "status": "Lido",
     "paginas": 152,
     "nota": 4.6,
-    "tags": ["politica", "alegoria", "classico"],
+    "tags": [
+      "politica",
+      "alegoria",
+      "classico"
+    ],
+    "capa": "https://books.google.com/books/content?id=UgUPEAAAQBAJ&printsec=frontcover&img=1&zoom=1",
     "descricao": "Fabula politica sobre poder, corrupcao e manipulacao atraves de animais."
   },
   {
@@ -106,7 +160,314 @@
     "status": "Lendo",
     "paginas": 368,
     "nota": 4.5,
-    "tags": ["design", "usabilidade", "interfaces"],
+    "tags": [
+      "design",
+      "usabilidade",
+      "interfaces"
+    ],
+    "capa": "https://books.google.com/books/content?id=IVRVDwAAQBAJ&printsec=frontcover&img=1&zoom=1",
     "descricao": "Como o design influencia o comportamento humano e a experiencia com objetos."
+  },
+  {
+    "id": 11,
+    "titulo": "Ideias para Adiar o Fim do Mundo",
+    "autor": "Ailton Krenak",
+    "categoria": "Filosofia",
+    "status": "Quero ler",
+    "paginas": 88,
+    "nota": 4.9,
+    "tags": [
+      "indigena",
+      "meio ambiente",
+      "sociedade"
+    ],
+    "vestibular": [
+      "UFRGS"
+    ],
+    "capa": "https://books.google.com/books/content?id=urKXDwAAQBAJ&printsec=frontcover&img=1&zoom=1",
+    "descricao": "Uma reflexão sobre a humanidade e a nossa relação predatória com a natureza."
+  },
+  {
+    "id": 12,
+    "titulo": "A Teus Pés",
+    "autor": "Ana Cristina Cesar",
+    "categoria": "Poesia",
+    "status": "Quero ler",
+    "paginas": 144,
+    "nota": 4.4,
+    "tags": [
+      "poesia marginal",
+      "anos 70"
+    ],
+    "vestibular": [
+      "UFRGS"
+    ],
+    "capa": "https://m.media-amazon.com/images/I/61NpdIhZL8L._AC_UF1000,1000_QL80_.jpg",
+    "descricao": "Obra que mescla diário, cartas e poemas marcantes da geração marginal."
+  },
+  {
+    "id": 13,
+    "titulo": "A Visão das Plantas",
+    "autor": "Djaimilia Pereira de Almeida",
+    "categoria": "Romance",
+    "status": "Quero ler",
+    "paginas": 96,
+    "nota": 4.6,
+    "tags": [
+      "literatura portuguesa",
+      "colonialismo"
+    ],
+    "vestibular": [
+      "UFRGS"
+    ],
+    "capa": "https://m.media-amazon.com/images/I/812Ir4m9-fL._UF1000,1000_QL80_.jpg",
+    "descricao": "A história do capitão Celestino e sua peculiar relação com um jardim."
+  },
+  {
+    "id": 14,
+    "titulo": "O Avesso da Pele",
+    "autor": "Jeferson Tenório",
+    "categoria": "Literatura Brasileira",
+    "status": "Quero ler",
+    "paginas": 192,
+    "nota": 4.8,
+    "tags": [
+      "racismo",
+      "identidade",
+      "porto alegre"
+    ],
+    "vestibular": [
+      "UFRGS"
+    ],
+    "capa": "https://m.media-amazon.com/images/I/81p29WCHFaL._AC_UF1000,1000_QL80_.jpg",
+    "descricao": "Um filho busca reconstituir a vida do pai negro, assassinado em uma abordagem policial."
+  },
+  {
+    "id": 15,
+    "titulo": "O Demônio Familiar",
+    "autor": "José de Alencar",
+    "categoria": "Teatro",
+    "status": "Quero ler",
+    "paginas": 120,
+    "nota": 4.0,
+    "tags": [
+      "comedia",
+      "escravidao",
+      "brasil imperio"
+    ],
+    "vestibular": [
+      "UFRGS"
+    ],
+    "capa": "https://livrarialoyola.fbitsstatic.net/img/p/o-demonio-familiar-180638/375294.jpg?w=800&h=800&v=no-change&qs=ignore",
+    "descricao": "Peça teatral que retrata os costumes e conflitos da sociedade carioca do século XIX."
+  },
+  {
+    "id": 16,
+    "titulo": "Mas em Que Mundo Tu Vive",
+    "autor": "José Falero",
+    "categoria": "Contos",
+    "status": "Quero ler",
+    "paginas": 160,
+    "nota": 4.7,
+    "tags": [
+      "periferia",
+      "porto alegre",
+      "crônica social"
+    ],
+    "vestibular": [
+      "UFRGS"
+    ],
+    "capa": "https://m.media-amazon.com/images/I/910qWCoF-pL._AC_UF350,350_QL50_.jpg",
+    "descricao": "Crônicas e contos sobre a vida, o trabalho e as desigualdades na periferia de Porto Alegre."
+  },
+  {
+    "id": 17,
+    "titulo": "Seleta de Canções",
+    "autor": "Lupicínio Rodrigues",
+    "categoria": "Música",
+    "status": "Quero ler",
+    "paginas": 100,
+    "nota": 4.9,
+    "tags": [
+      "samba-cancao",
+      "dor-de-cotovelo",
+      "boemia"
+    ],
+    "vestibular": [
+      "UFRGS"
+    ],
+    "capa": "https://m.media-amazon.com/images/I/81TIi6C+TaL._AC_UF1000,1000_QL80_.jpg",
+    "descricao": "Seleção específica de faixas do grande compositor gaúcho."
+  },
+  {
+    "id": 18,
+    "titulo": "Quincas Borba",
+    "autor": "Machado de Assis",
+    "categoria": "Literatura Brasileira",
+    "status": "Quero ler",
+    "paginas": 336,
+    "nota": 4.5,
+    "tags": [
+      "realismo",
+      "filosofia",
+      "humanitismo"
+    ],
+    "vestibular": [
+      "UFRGS",
+      "ENEM"
+    ],
+    "capa": "https://books.google.com/books/content?id=yZosEAAAQBAJ&printsec=frontcover&img=1&zoom=1",
+    "descricao": "A trágica e irônica trajetória de Rubião, herdeiro do filósofo Quincas Borba."
+  },
+  {
+    "id": 19,
+    "titulo": "Macunaíma",
+    "autor": "Mário de Andrade",
+    "categoria": "Literatura Brasileira",
+    "status": "Quero ler",
+    "paginas": 272,
+    "nota": 4.2,
+    "tags": [
+      "modernismo",
+      "heroi sem carater"
+    ],
+    "vestibular": [
+      "UFRGS",
+      "ENEM"
+    ],
+    "capa": "https://books.google.com/books/content?id=m9JBDwAAQBAJ&printsec=frontcover&img=1&zoom=1",
+    "descricao": "A rapsódia do herói sem nenhum caráter, marco central do modernismo brasileiro."
+  },
+  {
+    "id": 20,
+    "titulo": "Niketche: Uma História de Poligamia",
+    "autor": "Paulina Chiziane",
+    "categoria": "Romance",
+    "status": "Quero ler",
+    "paginas": 336,
+    "nota": 4.8,
+    "tags": [
+      "literatura africana",
+      "mocambique",
+      "mulheres"
+    ],
+    "vestibular": [
+      "UFRGS"
+    ],
+    "capa": "https://m.media-amazon.com/images/I/51W6dzc-ukL._AC_UF1000,1000_QL80_.jpg",
+    "descricao": "A jornada de Rami, que descobre as outras famílias de seu marido e decide conhecê-las."
+  },
+  {
+    "id": 21,
+    "titulo": "A Fúria",
+    "autor": "Silvina Ocampo",
+    "categoria": "Contos",
+    "status": "Quero ler",
+    "paginas": 224,
+    "nota": 4.4,
+    "tags": [
+      "literatura argentina",
+      "fantastico",
+      "insólito"
+    ],
+    "vestibular": [
+      "UFRGS"
+    ],
+    "capa": "https://cdl-static.s3-sa-east-1.amazonaws.com/covers/gg/9788535932607/a-furia.jpg",
+    "descricao": "Coletânea de contos que exploram o bizarro, a crueldade e o fantástico no cotidiano."
+  },
+  {
+    "id": 22,
+    "titulo": "Mrs. Dalloway",
+    "autor": "Virginia Woolf",
+    "categoria": "Literatura Estrangeira",
+    "status": "Quero ler",
+    "paginas": 208,
+    "nota": 4.5,
+    "tags": [
+      "fluxo de consciencia",
+      "modernismo"
+    ],
+    "vestibular": [
+      "UFRGS"
+    ],
+    "capa": "https://books.google.com/books/content?id=HY3FlbpE9dsC&printsec=frontcover&img=1&zoom=1",
+    "descricao": "Um dia na vida de Clarissa Dalloway na Londres pós-Primeira Guerra Mundial."
+  },
+  {
+    "id": 23,
+    "titulo": "Quarto de Despejo",
+    "autor": "Carolina Maria de Jesus",
+    "categoria": "Biografia",
+    "status": "Quero ler",
+    "paginas": 200,
+    "nota": 4.8,
+    "tags": [
+      "diario",
+      "favelas",
+      "realidade"
+    ],
+    "vestibular": [
+      "ENEM"
+    ],
+    "capa": "https://books.google.com/books/content?id=U-hwzgEACAAJ&printsec=frontcover&img=1&zoom=1",
+    "descricao": "O impactante diário de uma catadora de papel relatando o cotidiano na favela."
+  },
+  {
+    "id": 24,
+    "titulo": "Vidas Secas",
+    "autor": "Graciliano Ramos",
+    "categoria": "Literatura Brasileira",
+    "status": "Quero ler",
+    "paginas": 176,
+    "nota": 4.7,
+    "tags": [
+      "regionalismo",
+      "seca",
+      "sertao"
+    ],
+    "vestibular": [
+      "ENEM"
+    ],
+    "capa": "https://books.google.com/books/content?id=EHjuEAAAQBAJ&printsec=frontcover&img=1&zoom=1",
+    "descricao": "A dura jornada de uma família de retirantes fugindo da seca no nordeste."
+  },
+  {
+    "id": 25,
+    "titulo": "A Hora da Estrela",
+    "autor": "Clarice Lispector",
+    "categoria": "Literatura Brasileira",
+    "status": "Quero ler",
+    "paginas": 88,
+    "nota": 4.9,
+    "tags": [
+      "modernismo",
+      "nordestina",
+      "introspeccao"
+    ],
+    "vestibular": [
+      "ENEM"
+    ],
+    "capa": "https://books.google.com/books/content?id=hPmoDgAAQBAJ&printsec=frontcover&img=1&zoom=1",
+    "descricao": "A vida da datilógrafa alagoana Macabéa narrada pelo escritor Rodrigo S.M."
+  },
+  {
+    "id": 26,
+    "titulo": "Memórias Póstumas de Brás Cubas",
+    "autor": "Machado de Assis",
+    "categoria": "Literatura Brasileira",
+    "status": "Quero ler",
+    "paginas": 288,
+    "nota": 4.9,
+    "tags": [
+      "realismo",
+      "ironia",
+      "difunto autor"
+    ],
+    "vestibular": [
+      "ENEM"
+    ],
+    "capa": "https://books.google.com/books/content?id=Y1HkuAwYUnsC&printsec=frontcover&img=1&zoom=1",
+    "descricao": "A narrativa revolucionária de um defunto autor sobre sua vida medíocre."
   }
 ]

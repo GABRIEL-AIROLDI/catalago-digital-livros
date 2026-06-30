@@ -1,8 +1,8 @@
 const STATUS = [
   { valor: 'Todos',     rotulo: 'Todos' },
-  { valor: 'quero ler', rotulo: 'Quero ler' },
-  { valor: 'lendo',     rotulo: 'Lendo' },
-  { valor: 'lido',      rotulo: 'Lido' },
+  { valor: 'Quero ler', rotulo: 'Quero ler' },
+  { valor: 'Lendo',     rotulo: 'Lendo' },
+  { valor: 'Lido',      rotulo: 'Lido' },
 ]
 
 function FiltroStatus({ valor, aoAlterar }) {
